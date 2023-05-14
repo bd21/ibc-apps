@@ -9,7 +9,7 @@ The packet-forward-middleware is an IBC middleware module built for Cosmos block
 packet-forward-middleware is able to route incoming IBC packets from a source chain to a destination chain. As the Cosmos SDK/IBC become commonplace in the 
 blockchain space more and more zones will come online, these new zones joining are noticing a problem: they need to maintain a large amount of infrastructure 
 (archive nodes and relayers for each counterparty chain) to connect with all the chains in the ecosystem, a number that is continuing to increase quickly. Luckly 
-this problem has been anticipated and IBC has been architected to accomodate multi-hop transactions. However, a packet forwarding/routing feature was not in the 
+this problem has been anticipated and IBC has been architected to accommodate multi-hop transactions. However, a packet forwarding/routing feature was not in the 
 initial IBC release. 
 
 ## Sequence diagrams
